@@ -8,7 +8,7 @@ I approached this project with that in mind. This homelab walks through the proc
 
 ---
 
-What does this Virtual Home Lab include?
+### What does this Virtual Home Lab include?
 - Using VMware Workstation Pro 17 as the "hypervisor"
 - Configuring a pfSense firewall for Network Segmentation & Security
 - Configuring Security Onion as an all-in-one IDS, Security Monitoring, and Log Management solution
@@ -20,7 +20,7 @@ What does this Virtual Home Lab include?
 
 ---
 
-Network Layout
+### Network Layout
 
 ```
 Hypervisor Host
