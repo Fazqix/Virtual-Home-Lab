@@ -4,12 +4,17 @@
 
 In Cybersecurity, it could be a daunting task to apply and implement security concepts if there is an unavailability of practical and safe infrastructure to carry out these activities.
 
-I approached this project with that in mind. This homelab walks through the process of configuring, optimizing, and securing an I.T infrastructure. Although this will be at a relatively small scale, you will be able to apply the knowledge gained in a real-world large-scale/enterprise infrastructure. his Homelab is an environment in your home that is used to practice and improve your skills in a specific field. This home lab has components and tools similar to large-scale infrastructures. It’s a safe environment to work with these components and learn how they work.
+This is a project that keeps a simple approach while also containing key components necessary for network detection and monitoring practice. This environment is meant to provide a safe place to improve field-related skills while simulating a enterprise style architecture. In this repository, there will be quick and easy-to-understand walkthroughs of how to set up the components of this home lab.
+
+
+*Disclaimer : The initial skeleton of this infrastructure was based on Day's Walkthrough on Cyberwox Academy. Links to his website will be provided below so make sure to check out his version of the setup as well as his walkthrough videos of some of the tools that were setup here.*
+
+Link : https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detection-monitoring/
 
 ---
 
 ### What does this Virtual Home Lab include?
-- Using VMware Workstation Pro 17 as the "hypervisor"
+- Using VMware Workstation Pro 17 as the "Hypervisor"
 - Configuring a pfSense firewall for Network Segmentation & Security
 - Configuring Security Onion as an all-in-one IDS, Security Monitoring, and Log Management solution
 - Configuring Kali Linux as an attack machine
@@ -49,5 +54,3 @@ Interface : em5
 ```
 
 ---
-
-All credit for this Home Lab Initial Setup goes to : https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detection-monitoring/
