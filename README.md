@@ -23,22 +23,29 @@ I approached this project with that in mind. This homelab walks through the proc
 ### Network Layout
 
 ```
+-
 Hypervisor Host
-	VMware Workstation Pro 17
+VMware Workstation Pro 17
+-
 pfSense
-	IPv4 : 192.168.1.1
+IPv4 : 192.168.1.1
+-
 Kali
-	IPv4 : 192.168.1.10
-	Interface : em1 
+IPv4 : 192.168.1.10
+Interface : em1 
+-
 Victim Network
-	IPv4 : 192.168.2.10
-	Interface : em2
+IPv4 : 192.168.2.10
+Interface : em2
+-
 Security Onion
-	IPv4 : 192.168.3.10
-	Interface : em3
+IPv4 : 192.168.3.10
+Interface : em3
+-
 Splunk
-	IPv4 : 192.168.4.10
-	Interface : em5
+IPv4 : 192.168.4.10
+Interface : em5
+-
 ```
 
 ---
