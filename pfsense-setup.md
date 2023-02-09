@@ -112,6 +112,14 @@ Start with picking the `OPT4 interface` which is number 6.
   - Type "n" to enable the DHCP server on LAN.
   - Type "n" to not revert to HTTP as the webConfigurator protocol.
 
+---    
+
+After all those changes to each interface, the interface list at the main menu should look like this :
+
+![pfSenseInterfaceList](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/images/pfsense/pfSenseInterfaceList.png)
+
+The `WAN Interface` IP address will most likely be different so don't panic :)
+    
 This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
     
 ## WebConfigurator Changes and Firewall Rules
