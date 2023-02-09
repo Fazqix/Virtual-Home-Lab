@@ -1,5 +1,4 @@
-<h1 align="center">Virtual Home Lab Documentation and Details 💻📝</h1>
----
+<h1 align="center"><img height="200" src="./images/readme/VirtualLabHeader.png" /><br><br> Virtual Home Lab Documentation and Details 💻📝</h1>
 
 In Cybersecurity, it could be a daunting task to apply and implement security concepts if there is an unavailability of practical and safe infrastructure to carry out these activities.
 
@@ -13,7 +12,8 @@ Link : https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detectio
 ---
 
 ### What does this Virtual Home Lab include?
-- Using VMware Workstation Pro 17 as the "Hypervisor"
+
+- Using VMware Workstation Pro 17 (or VirtualBox) as the "Hypervisor"
 - Configuring a pfSense firewall for Network Segmentation & Security
 - Configuring Security Onion as an all-in-one IDS, Security Monitoring, and Log Management solution
 - Configuring Kali Linux as an attack machine
