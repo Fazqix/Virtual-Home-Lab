@@ -32,7 +32,7 @@ Once these settings have been adjusted, start the virtual machine.
     
 ## Assigning Interfaces
 
-`Accept all defaults` and allow pfSense reboot.
+`Accept all defaults` and allow pfSense reboot. More specifically this means clicking `Enter` through the options until pfSense auto reboots.
 
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
     
