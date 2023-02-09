@@ -86,7 +86,7 @@ Start with picking the `OPT1 interface` which is number 3.
 ##### OPT2 Interface
 From here, type "2" again to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
     
-Start with picking the `OPT2 interface` which is number 3.
+Start with picking the `OPT2 interface` which is number 4.
 
   - Assign "192.168.3.1" as the `LAN IPv4 Address`.
   - Assign "24" as the new `LAN IPv4 Subnet Bit Count`.
@@ -104,7 +104,7 @@ Leave OPT3 Interface without an IP address as it is going to have traffic that w
 ##### OPT4 Interface
 From here, type "2" again to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
     
-Start with picking the `OPT4 interface` which is number 3.
+Start with picking the `OPT4 interface` which is number 6.
 
   - Assign "192.168.4.1" as the `LAN IPv4 Address`.
   - Assign "24" as the new `LAN IPv4 Subnet Bit Count`.
