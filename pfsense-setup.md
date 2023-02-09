@@ -37,7 +37,7 @@ Once these settings have been adjusted, start the virtual machine.
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
     
 <p alight="center">
-  ![Chart not found](https://raw.githubusercontent.com/Fazqix/Virtual-Home-Lab/images/pfSensebootup.png)
+  [[https://github.com/Fazqix/Virtual-Home-Lab/blob/master/images/pfSenseInterfaces.png]]
 </p>
 
 ```
