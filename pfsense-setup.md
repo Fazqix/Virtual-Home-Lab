@@ -1,5 +1,5 @@
 
-<h1 align="center">pfSense Walkthrough</h1>
+<h1 align="center"><img height="150" src="./images/pfsense/pfSenseLogo.png" /><br> pfSense Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to pfSense ISO file : https://www.pfsense.org/download/</b>
@@ -30,38 +30,88 @@ Additional Network Adapter Settings :
     
 Once these settings have been adjusted, start the virtual machine.
     
-## Assigning Interfaces
+## Inferface Configurations
 
 `Accept all defaults` and allow pfSense reboot. More specifically this means clicking `Enter` through the options until pfSense auto reboots.
 
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
     
-<p alight="center">
-  [[https://github.com/Fazqix/Virtual-Home-Lab/blob/master/images/pfSenseInterfaces.png]]
-</p>
+![pfSenseInterfaces](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/images/pfsense/pfSenseInterfaces.png)
 
-```
-1. Once the 
-1. Enter Option 1
-2. Type "n" to the VLAN Setup Prompt
-3. Enter "em0, em1, em2, em3, em4 & em5" respectively for each consecutive question. (em0 should be WAN, em1 should be LAN, em2 should be OPT1, em3 should be OPT2, em4 should be OPT3, em5 should be OPT4)
-4. Type "y" to "Do you want to proceed"
+From here, type "1" to select `1) Assign Interfaces` after the `Enter an option:` prompt.
+    
+It will ask you if VLANs should be set up now, type "n" for no.
+    
+Next,
+    
+  - Type "em0" to assign it to the `WAN interface`
+  - Type "em1" to assign it to the `LAN interface`
+  - Type "em2" to assign it to the `Optional 1 interface`
+  - Type "em3" to assign it to the `Optional 2 interface`
+  - Type "em4" to assign it to the `Optional 3 interface`
+  - Type "em5" to assign it to the `Optional 4 interface`
+    
+Then type "y" to `proceed`. These changes will be made and the menu from the **screenshot above** should pop back up.
+    
+---
+    
+##### LAN Interface
+From here, type "2" to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
+    
+Start with picking the `LAN interface` which is number 2.
 
-1. Enter Option 2
-2. Click "2" (this is for LAN interface)
-3. Enter "192.168.1.1" for LAN IPv4 address > 24 for subnet > "Enter" > "Enter" > "y" for enabling DHCP server on LAN > "192.168.1.11" for the start of the range > "192.168.1.200" for the end of the range > "n" to reverting to HTTP as the webConfigurator protocol
+  - Assign "192.168.1.1" as the `LAN IPv4 Address`.
+  - Assign "24" as the new `LAN IPv4 Subnet Bit Count`.
+  - Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
+  - Type "y" to enable the DHCP server on LAN.
+  - Set the start address of the IPv4 range as "192.168.1.11".
+  - Set the end address of the IPv4 range as "192.168.1.200".
+  - Type "n" to not revert to HTTP as the webConfigurator protocol.
+    
+---
+    
+##### OPT1 Interface
+From here, type "2" again to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
+    
+Start with picking the `OPT1 interface` which is number 3.
 
-1. Enter Option 2
-2. Click "3" (this is for OPT1 interface)
-3. Enter "192.168.2.1" for LAN IPv4 address > 24 for subnet > "Enter" > "Enter" > "n" for enabling DHCP server on OPT 1 > "n" to reverting to HTTP as the webConfigurator protocol
+  - Assign **192.168.2.1** as the `LAN IPv4 Address`.
+  - Assign **24** as the new `LAN IPv4 Subnet Bit Count`.
+  - Click **Enter** for both of the next options (IPv4 Upstream Gateway and IPv6).
+  - Type **n** to enable the DHCP server on LAN.
+  - Type **n** to not revert to HTTP as the webConfigurator protocol.
 
-1. Enter Option 2
-2. Click "4" (this is for OPT2 interface)
-3. Enter "192.168.3.1" for LAN IPv4 address > 24 for subnet > "Enter" > "Enter" > "n" for enabling DHCP server on OPT 1 > "n" to reverting to HTTP as the webConfigurator protocol
+---   
+    
+##### OPT2 Interface
+From here, type "2" again to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
+    
+Start with picking the `OPT2 interface` which is number 3.
 
-*Leave the OPT3 interface without an IP as it is going to have the span port with traffic that Security Onion will be monitoring.*
+  - Assign "192.168.3.1" as the `LAN IPv4 Address`.
+  - Assign "24" as the new `LAN IPv4 Subnet Bit Count`.
+  - Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
+  - Type "n" to enable the DHCP server on LAN.
+  - Type "n" to not revert to HTTP as the webConfigurator protocol.
 
-1. Enter Option 2
-2. Click "6" (this is for OPT1 interface)
-3. Enter "192.168.4.1" for LAN IPv4 address > 24 for subnet > "Enter" > "Enter" > "n" for enabling DHCP server on OPT 1 > "n" to reverting to HTTP as the webConfigurator protocol
-```
+---
+    
+##### OPT3 Interface
+Leave OPT3 Interface without an IP address as it is going to have traffic that will be monitored by Security Onion.
+    
+---
+    
+##### OPT4 Interface
+From here, type "2" again to select `2) Set interface(s) IP address` after the `Enter an option:` prompt.
+    
+Start with picking the `OPT4 interface` which is number 3.
+
+  - Assign "192.168.4.1" as the `LAN IPv4 Address`.
+  - Assign "24" as the new `LAN IPv4 Subnet Bit Count`.
+  - Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
+  - Type "n" to enable the DHCP server on LAN.
+  - Type "n" to not revert to HTTP as the webConfigurator protocol.
+
+This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
+    
+## WebConfigurator Changes and Firewall Rules
