@@ -1,5 +1,4 @@
-### Virtual Home Lab Documentation and Details 💻📝
-
+<h1 align="center">Virtual Home Lab Documentation and Details 💻📝</h1>
 ---
 
 In Cybersecurity, it could be a daunting task to apply and implement security concepts if there is an unavailability of practical and safe infrastructure to carry out these activities.
