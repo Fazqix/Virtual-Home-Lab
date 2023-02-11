@@ -92,6 +92,7 @@ I recommend noting or screenshotting the options set screen seen below for futur
 Proceed and wait for Security Onion to initialize all the configuration steps. (This may take a while)
 
 ---
+
 ![UbuntuLogo](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuLogo.png)
 
 ## Ubuntu Machine Setup
