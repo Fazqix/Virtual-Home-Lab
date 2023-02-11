@@ -1,5 +1,5 @@
 
-<h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br> pfSense Walkthrough</h1>
+<h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br> PfSense Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to pfSense ISO file : https://www.pfsense.org/download/</b>
@@ -123,3 +123,27 @@ The `WAN Interface` IP address will most likely be different so don't panic :)
 This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
     
 ## WebConfigurator Changes and Firewall Rules
+
+After a Kali Linux virtual machine is configured (via KaliLinux-Setup.ed).
+
+Once the Kali Linux machine is started, you can use the default credentials (if not yet changed).
+
+- Username : "kali"
+- Password : "kali"
+
+Navigate to the web browser and search "https://192.168.1.1"
+
+If successfully connected to the pfSense firewall, a screen like the one below should show up :
+
+![pfSenseWebWarning](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseWebWarning.png)
+
+Click the `Advanced...` button and a new screen confirming to accept the risk will pop up.
+
+Click the `Accept the Risk and Continue` button. The pfSense screen matching the one below will appear :
+
+![pfSenseWebLogin](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseWebLogin.png)
+
+Sign into this pfSense login page with the default credentials.
+
+- Username : "admin"
+- Password : "pfsense"
