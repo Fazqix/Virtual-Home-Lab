@@ -27,30 +27,5 @@ Link : https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detectio
 
 ### Network Layout
 
-```
--
-Hypervisor Host
-VMware Workstation Pro 17
--
-pfSense
-IPv4 : 192.168.1.1
--
-Kali
-IPv4 : 192.168.1.10
-Interface : em1 
--
-Victim Network
-IPv4 : 192.168.2.10
-Interface : em2
--
-Security Onion
-IPv4 : 192.168.3.10
-Interface : em3
--
-Splunk
-IPv4 : 192.168.4.10
-Interface : em5
--
-```
+![Topology](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/Topology.png)
 
----
