@@ -7,6 +7,7 @@
    I selected AMD64  (64-Bit). I also selected the DVD Image (ISO) Installer and the Austin, TX USA Mirror.<sub>
 </p>
 
+---
 ## Virtual Machine Setup
 
 This walkthrough assumes that you already know how to set up and create a virtual machine within the virutalization application of your choice (VirutalBox or VNware Workstation).
@@ -121,6 +122,7 @@ The `WAN Interface` IP address will most likely be different so don't panic :)
     
 This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
     
+---
 ## PfSense Web Setup and Configuration
 
 After a Kali Linux virtual machine is configured (via KaliLinux-Setup.ed).
