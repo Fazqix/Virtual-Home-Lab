@@ -1,4 +1,4 @@
-<h1 align="center"><img height="250" src="../Images/SecurityOnionLogo.png" /><br> Security Onion Walkthrough</h1>
+<br><h1 align="center"><img height="250" src="../Images/SecurityOnionLogo.png" /><br><br> Security Onion Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to Security Onion ISO file : https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md</b>
@@ -6,6 +6,7 @@
   <sub>At the time of writing this, the latest version of Security Onion is 2.3.210-20230202.<sub>
 </p>
 
+---
 ## Virtual Machine Setup
 
 This walkthrough assumes that you already know how to set up and create a virtual machine within the virutalization application of your choice (VirutalBox or VNware Workstation).
@@ -27,8 +28,5 @@ Additional Network Adapter Settings :
     
 Once these settings have been adjusted, start the virtual machine.
     
-## Inferface Configurations
-
-
-    
 ---
+## Inferface Configurations
