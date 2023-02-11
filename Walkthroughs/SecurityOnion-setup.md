@@ -1,4 +1,4 @@
-<h1 align="center"><img height="150" src="./images/securityonion/SecurityOnionLogo.png" /><br> Security Onion Walkthrough</h1>
+<h1 align="center"><img height="250" src="../Images/SecurityOnionLogo.png" /><br> Security Onion Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to Security Onion ISO file : https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md</b>
