@@ -1,5 +1,5 @@
 
-<h1 align="center"><img height="150" src="./images/pfsense/pfSenseLogo.png" /><br> pfSense Walkthrough</h1>
+<h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br> pfSense Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to pfSense ISO file : https://www.pfsense.org/download/</b>
@@ -36,7 +36,7 @@ Once these settings have been adjusted, start the virtual machine.
 
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
     
-![pfSenseInterfaces](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/images/pfsense/pfSenseInterfaces.png)
+![pfSenseInterfaces](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseInterfaces.png)
 
 From here, type "1" to select `1) Assign Interfaces` after the `Enter an option:` prompt.
     
@@ -116,7 +116,7 @@ Start with picking the `OPT4 interface` which is number 6.
 
 After all those changes to each interface, the interface list at the main menu should look like this :
 
-![pfSenseInterfaceList](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/images/pfsense/pfSenseInterfaceList.png)
+![pfSenseInterfaceList](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseInterfaceList.png)
 
 The `WAN Interface` IP address will most likely be different so don't panic :)
     
