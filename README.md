@@ -35,10 +35,6 @@ Diagram provided by : Cyberwox Academy https://cyberwoxacademy.com/building-a-cy
 
 ## Start-to-Finish Roadmap Walkthrough Order
 
--
-Start with setting up the Kali Linux virtual machine as this will be needed to setup the pfSense Firewall machine.
--
-Next follow the pfSense Firewall walkthrough.
--
-Then follow the Security Onion Setup.
--
+- Start with setting up the Kali Linux virtual machine as this will be needed to setup the pfSense Firewall machine.
+- Next follow the pfSense Firewall walkthrough.
+- Then follow the Security Onion Setup.
