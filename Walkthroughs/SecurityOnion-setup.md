@@ -29,4 +29,67 @@ Additional Network Adapter Settings :
 Once these settings have been adjusted, start the virtual machine.
     
 ---
-## Inferface Configurations
+## Security Onion Setup
+
+Once the initial stages of loading are complete, type "yes" when prompted with this screen :
+
+![SecurityOnionPrompt](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionPrompt.png)
+
+Set a `username` and `password` when prompted and wait until Security Onion reboots.
+
+When Security Onion reboots, login and a setup screen like the one below will pop up. Click `Yes` to this prompt and proceed.
+
+![SecurityOnionPrompt](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionPrompt.png)
+
+Click `Enter` while highlighting the `Install` option.
+
+Select the `EVAL` option by using spacebar and then click `Enter`.
+
+Type "AGREE" and accept the Elastic License to continue.
+
+Set the `Hostname` to "SecOnion" or whatever is best to identify this machine and click `Enter`.
+
+Select `ens32` displayed in the screenshot below using the spacebar again and click `Ok`.
+
+![SecurityOnionENS](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS.png)
+
+Select `DHCP`, then `Ok`.
+
+Click `Enter` to confirm and `Enter` again to continue.
+
+Select `Standard` on the prompt seen below and click `Enter`.
+
+![SecurityOnionStandard](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionStandard.png)
+
+Select `Direct`, click `Enter`, and let the configurations load.
+
+Select `ens34` displayed in the screenshot below using the spacebar and click `Ok`.
+
+![SecurityOnionENS2](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS2.png)
+
+Select `Automatic` for the OS patch schedule and click `Ok`.
+
+Leave the home networks listed in the text box as default and click `<Ok>`.
+
+Select all options in the screenshot below using the spacebar and click `<Ok>`.
+
+Click `<Yes>` to keeping the default Docker IP range.
+
+Enter an email address and password for your administrator account and click `<Ok>`.
+
+Select `IP` for web interface access and click `<Ok>`.
+
+Select `<Yes>` to configure NTP servers.
+
+Click `<Ok>` to defualt input for NTP servers to use.
+
+Select `<No>` to running `so-allow` for now.
+
+I recommend noting or screenshotting the options set screen seen below for future reference before clicking `<Yes>`.
+
+![SecurityOnionOptionsSet](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionOptionsSet.png)
+
+Proceed and wait for Security Onion to initialize all the configuration steps. (This may take a while)
+
+---
+##
