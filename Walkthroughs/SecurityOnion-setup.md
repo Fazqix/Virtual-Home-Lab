@@ -37,7 +37,7 @@ Once the initial stages of loading are complete, type "yes" when prompted with t
 
 Set a `username` and `password` when prompted and wait until Security Onion reboots.
 
-When Security Onion reboots, login and a setup screen like the one below will pop up. Click `Yes` to this prompt and proceed.
+When Security Onion reboots, login and a setup screen like the one below will pop up. Click `<Yes>` to this prompt and proceed.
 
 ![SecurityOnionPrompt](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionPrompt.png)
 
@@ -49,11 +49,11 @@ Type "AGREE" and accept the Elastic License to continue.
 
 Set the `Hostname` to "SecOnion" or whatever is best to identify this machine and click `Enter`.
 
-Select `ens32` displayed in the screenshot below using the spacebar again and click `Ok`.
+Select `ens32` displayed in the screenshot below using the spacebar again and click `<Ok>`.
 
 ![SecurityOnionENS](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS.png)
 
-Select `DHCP`, then `Ok`.
+Select `DHCP`, then `<Ok>`.
 
 Click `Enter` to confirm and `Enter` again to continue.
 
@@ -63,11 +63,11 @@ Select `Standard` on the prompt seen below and click `Enter`.
 
 Select `Direct`, click `Enter`, and let the configurations load.
 
-Select `ens34` displayed in the screenshot below using the spacebar and click `Ok`.
+Select `ens34` displayed in the screenshot below using the spacebar and click `<Ok>`.
 
 ![SecurityOnionENS2](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS2.png)
 
-Select `Automatic` for the OS patch schedule and click `Ok`.
+Select `Automatic` for the OS patch schedule and click `<Ok>`.
 
 Leave the home networks listed in the text box as default and click `<Ok>`.
 
