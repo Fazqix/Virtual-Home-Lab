@@ -122,7 +122,7 @@ The `WAN Interface` IP address will most likely be different so don't panic :)
     
 This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
     
-## WebConfigurator Changes and Firewall Rules
+## PfSense Web Setup and Configuration
 
 After a Kali Linux virtual machine is configured (via KaliLinux-Setup.ed).
 
@@ -147,3 +147,45 @@ Sign into this pfSense login page with the default credentials.
 
 - Username : "admin"
 - Password : "pfsense"
+
+Click "Next" on the initial screen to start the pfSense web setup and a bar saying `Step 1 of 9` should appear at the top.
+
+Click "Next" again to proceed to `Step 2 of 9`.
+
+- Leave the `Hostname` and `Domain` boxes empty.
+- Set 8.8.8.8 as the `Primary DNS Server`.
+- Set 4.4.4.4 as the `Secondary DNS Server`.
+- Leave the `Override DNS` checkbox checked.
+
+Click "Next" to proceed to `Step 3 of 9`.
+
+- Leave the `Time Server Hostname` box empty.
+- Set `Timezone` to your specific timezone.
+
+Click "Next" to proceed to `Step 4 of 9`.
+
+- Leave all options listed as default except the last two checked boxes.
+- Uncheck the last two boxes.
+
+![pfSenseUntickOptions](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseUntickOptions.png)
+
+Click "Next" to proceed to `Step 5 of 9`.
+
+- Leave all options default.
+
+Click "Next" to proceed to `Step 6 of 9`.
+
+- Set a new Admin Password.
+
+Click "Next" to proceed to `Step 7 of 9`.
+
+Click "Reload" to proceed to `Step 8 of 9`.
+
+Click "Finish" to complete the web configuration process.
+
+After the web setup process is complete, the pfSense dashboard will now be available.
+
+![pfSenseDashboard](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseDashboard.png)
+
+
+
