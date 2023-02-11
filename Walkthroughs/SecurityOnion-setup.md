@@ -97,7 +97,7 @@ Proceed and wait for Security Onion to initialize all the configuration steps. (
 
 ## Ubuntu Machine Setup
 
-<b>Download Link to Ubunut ISO file : https</b>
+<b>Download Link to Ubunut ISO file : https://ubuntu.com/download/desktop</b>
 <br>
 <sub>At the time of writing this, the latest version of Ubuntu is 22.04.1 LTS.<sub>
 
