@@ -1,5 +1,5 @@
 
-<br><h1 align="center"><img height="150" src="./Images/VirtualLabHeader.png" /><br><br> Virtual Home Lab Details 💻📝</h1>
+<br><h1 align="center"><img height="200" src="./Images/VirtualLabHeader.png" /><br><br> Virtual Home Lab Details 💻📝</h1>
 
 In Cybersecurity, it could be a daunting task to apply and implement security concepts if there is an unavailability of practical and safe infrastructure to carry out these activities.
 
