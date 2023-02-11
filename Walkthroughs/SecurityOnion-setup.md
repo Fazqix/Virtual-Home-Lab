@@ -87,7 +87,7 @@ Select `<No>` to running `so-allow` for now.
 
 I recommend noting or screenshotting the options set screen seen below for future reference before clicking `<Yes>`.
 
-![SecurityOnionOptionsSet](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionOptionsSet.png)
+![SecurityOnionOptionsSet](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionOptions.png)
 
 Proceed and wait for Security Onion to initialize all the configuration steps. (This may take a while)
 
