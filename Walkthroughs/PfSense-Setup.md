@@ -30,7 +30,7 @@ Additional Network Adapter Settings :
     
 Once these settings have been adjusted, start the virtual machine.
     
-## Inferface Configurations
+## PfSense Setup
 
 `Accept all defaults` and allow pfSense reboot. More specifically this means clicking `Enter` through the options until pfSense auto reboots.
 
