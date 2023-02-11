@@ -1,4 +1,4 @@
-<h1 align="center"><img height="150" src="./Images/KaliLogo.png" /><br> Kali Linux Walkthrough</h1>
+<h1 align="center"><img height="250" src="../Images/KaliLinuxLogo.png" /><br> Kali Linux Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to Kali Linux ISO file : https://www.kali.org/get-kali/#kali-virtual-machines</b>
