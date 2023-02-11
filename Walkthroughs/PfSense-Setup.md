@@ -1,4 +1,4 @@
-<br><h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br> PfSense Walkthrough</h1>
+<br><h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br><br> PfSense Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to pfSense ISO file : https://www.pfsense.org/download/</b>
