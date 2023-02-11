@@ -1,4 +1,4 @@
-<h1 align="center"><img height="250" src="../Images/KaliLinuxLogo.png" /><br> Kali Linux Walkthrough</h1>
+<br><h1 align="center"><img height="250" src="../Images/KaliLinuxLogo.png" /><br><br> Kali Linux Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to Kali Linux ISO file : https://www.kali.org/get-kali/#kali-virtual-machines</b>
@@ -6,6 +6,7 @@
   <sub>At the time of writing this, the latest version of Kali Linux is 2022.4.<sub>
 </p>
 
+---
 ## Virtual Machine Setup
 
 This walkthrough assumes that you already know how to import a virtual machine file within the virutalization application of your choice (VirutalBox or VNware Workstation).
@@ -24,9 +25,3 @@ Additional Network Adapter Settings :
 `All other settings can be left at default.`
     
 Once these settings have been adjusted, start the virtual machine.
-    
-## Inferface Configurations
-
-
-    
----
