@@ -187,5 +187,48 @@ After the web setup process is complete, the pfSense dashboard will now be avail
 
 ![pfSenseDashboard](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseDashboard.png)
 
+Next, configurations need to be made to the interfaces.
 
+Click on the `Interfaces` tab and select `LAN` on the dropdown menu.
 
+For interface `LAN`, change the description from "LAN" to "Kali".
+
+*(This is to label the interfaces of what devices are running on what)*
+
+Click `Save` at the bottom.
+
+Repeat this process for all other interfaces (excluding em0/WAN interface).
+
+- Keep `WAN` as "WAN"
+- Change `LAN` to "Kali"
+- Change `OPT1` to "VictimNetwork"
+- Change `OPT2` to "SecOnion"
+- Change `OPT3` to "SpanPort"
+- Ensure that `OPT3` or now `SpanPort` interface is enabled.
+- Change `OPT4` to "Splunk"
+
+To confirm these changes, the interface list should match the screenshot below :
+
+![pfSenseWebInterfaceList](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseWebInterfaceList.png)
+
+While in the `Interfaces Assignment` list, switch to the `Bridges` tab.
+
+Click `Add`.
+
+Select `VictimNetwork`.
+
+![pfSenseDisplayAdvanced](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseDisplayAdvanced.png)
+
+Click `Display Advanced`.
+
+Scroll down to the `Advanced Configuration` Section and select `SPANPORT` for Span Port.
+
+Then click `Save` at the bottom of the page.
+
+Now click the `Rules` option in the dropdown menu of the `Firewall` tab.
+
+Click the `Add` button with the arrow that points downward.
+
+Under the `Edit Firewall Rule` section, select `Any` for the `Protocol` rule and then click `Save` at the buttom of the page.
+
+This concludes all of the setups and configurations made to the pfSense firewall for this home lab walkthrough.
