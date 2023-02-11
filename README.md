@@ -25,7 +25,20 @@ Link : https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detectio
 
 ---
 
-### Network Layout
+## Network Topology Diagram
 
 ![Topology](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/Topology.png)
 
+Diagram provided by : Cyberwox Academy https://cyberwoxacademy.com/building-a-cybersecurity-homelab-for-detection-monitoring/
+
+---
+
+## Start-to-Finish Roadmap Walkthrough Order
+
+-
+Start with setting up the Kali Linux virtual machine as this will be needed to setup the pfSense Firewall machine.
+-
+Next follow the pfSense Firewall walkthrough.
+-
+Then follow the Security Onion Setup.
+-
