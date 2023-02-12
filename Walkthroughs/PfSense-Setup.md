@@ -1,7 +1,7 @@
 <br><h1 align="center"><img height="250" src="../Images/pfSenseLogo.png" /><br><br> PfSense Walkthrough</h1>
 
 <p align="center">
-  <b>Download Link to pfSense ISO file : https://www.pfsense.org/download/</b>
+  <b>Download Link to pfSense ISO file : <br> https://www.pfsense.org/download/</b>
   <br>
   <sub>At the time of writing this, the latest version of pfSense is 2.6.0. 
    I selected AMD64  (64-Bit). I also selected the DVD Image (ISO) Installer and the Austin, TX USA Mirror.<sub>
@@ -123,6 +123,11 @@ The `WAN Interface` IP address will most likely be different so don't panic :)
 This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to `Halt System`.
     
 ---
+
+**Do not proceed unless the Kali Linux machine is set up.**
+
+---
+
 ## PfSense Web Setup and Configuration
 
 After a Kali Linux virtual machine is configured (via KaliLinux-Setup.ed).
