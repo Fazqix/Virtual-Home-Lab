@@ -1,7 +1,7 @@
 <br><h1 align="center"><img height="250" src="../Images/KaliLinuxLogo.png" /><br><br> Kali Linux Walkthrough</h1>
 
 <p align="center">
-  <b>Download Link to Kali Linux ISO file : https://www.kali.org/get-kali/#kali-virtual-machines</b>
+  <b>Download Link to Kali Linux ISO file : <br> https://www.kali.org/get-kali/#kali-virtual-machines</b>
   <br>
   <sub>At the time of writing this, the latest version of Kali Linux is 2022.4.<sub>
 </p>
@@ -25,3 +25,5 @@ Additional Network Adapter Settings :
 `All other settings can be left at default.`
     
 Once these settings have been adjusted, start the virtual machine.
+
+This concludes the setup for Kali Linux.
