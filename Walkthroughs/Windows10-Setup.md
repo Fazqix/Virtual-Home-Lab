@@ -1,4 +1,4 @@
-<br><h1 align="center"><img height="250" src="../Images/Windows10Logo.png" /><br><br> Windows 10 Walkthrough</h1>
+<br><h1 align="center"><img height="200" src="../Images/Windows10Logo.png" /><br><br> Windows 10 Walkthrough</h1>
 
 <p align="center">
   <b>Download Link to Windows 10 ISO file : <br> https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise</b>
