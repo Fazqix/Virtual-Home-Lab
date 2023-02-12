@@ -1,8 +1,7 @@
-
 <br><h1 align="center"><img height="250" src="../Images/WindowsServer2019.png" /><br><br> Windows Server 2019 Walkthrough</h1>
 
 <p align="center">
-  <b>Download Link to Windows Server 2019 ISO file : <br> https://www.kali.org/get-kali/#kali-virtual-machines](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)</b>
+  <b>Download Link to Windows Server 2019 ISO file : <br> https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019 </b>
   <br>
 </p>
 
