@@ -9,18 +9,16 @@
 ---
 ## Virtual Machine Setup
 
-This walkthrough assumes that you already know how to import a virtual machine file within the virutalization application of your choice (VirutalBox or VNware Workstation).
+This walkthrough assumes that you already know how to set up and create a virtual machine within the virutalization application of your choice (VirutalBox or VNware Workstation).
     
 The recommended settings for this virtual machine are :
 
-* **Disk Size** : 80 GB `Store virtual disk as a single files`
-* **Memory** : 4 GB or 4,096 MB
-* **Processors** : 4
+* **Disk Size** : 60 GB (Default)
+* **Memory** : 2 GB or 4,048 MB (Default)
 
 Additional Network Adapter Settings :
 
-* **Network Adapter 1** : `NAT`
-* **Network Adapter 2** : `VMnet2`
+* **Network Adapter 1** : `VMnet3`
 
 `All other settings can be left at default.`
     
