@@ -224,7 +224,7 @@ Click `OK` twice and reboot the server to update the changes.
 
 **Follow the steps to the Windows10-Setup Walkthrough before proceeding to the next section.**
 
---
+---
 
 ## Joining the Windows 10 PCs to the Domain
 
