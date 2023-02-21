@@ -1,6 +1,8 @@
-# Initial Setup Walkthrough
+<br><h1 align="center"><img height="250" src="../Images/sdsd.png" /><br><br> INITIAL SETUP WALKTHROUGH</h1>
 
-This is the full walkthrough of the initial setup for this virutal home lab. The order of some parts of this walkthrough is important to the success of other parts working correctly.
+<p align="center">
+This is the full walkthrough of the initial setup for this virutal home lab. The order of some parts of this walkthrough is important to the success of other parts   working correctly.
+</p>
 
 ---
 ---
